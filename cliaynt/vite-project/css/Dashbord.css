@@ -1,0 +1,25 @@
+/* Ensure the parent container takes full height */
+.admin-dashboard {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Prevent scrolling on the entire layout */
+}
+
+.sidebar {
+    width: 250px; /* Adjust width as needed */
+    position: fixed; /* Fixed position to make it stay in place */
+    height: 100vh; /* Full height of the viewport */
+    overflow-y: auto; /* Add vertical scrolling for the sidebar if content overflows */
+    background-color: #f8f9fa; /* Example background color */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow for style */
+    padding: 20px;
+}
+
+.main-content {
+    margin-left: 250px; /* Same width as the sidebar */
+    flex: 1;
+    overflow-y: auto; /* Add scrolling for content */
+    height: calc(100vh - 80px); /* Account for footer height */
+    padding: 20px;
+}
+

@@ -1,0 +1,155 @@
+/* Reset */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+} */
+
+/* Container */
+.containerr {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f4f7fa;
+}
+
+/* Sidebar */
+.sidebarr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    background-color: #f4f7fa;
+    padding-top: 20px;
+    gap: 20px;
+    margin-left: 40px;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    background-color: #e40000;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.active .circle {
+    border: 2px solid #dcdcdc;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    padding: 30px;
+    color: #123c84;
+}
+
+.customer-info h2 {
+    color: #123c84;
+}
+
+.customer-info p {
+    margin: 5px 0;
+}
+
+.edit-icon {
+    color: #e40000;
+    cursor: pointer;
+}
+
+.vehicles-section,
+.orders-section {
+    margin-top: 20px;
+}
+
+.vehicles-section h3,
+.orders-section h3 {
+    margin-bottom: 10px;
+}
+
+.no-vehicle {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: #999;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.add-vehicle-btn {
+    background-color: #e40000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.orders-section p {
+    color: #888;
+}
+.nav-item {
+    margin-bottom: 110px;
+}
+
+.box {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.button-cloth button{
+    text-align: right;
+    justify-content: right;
+    display: flex;
+    
+}
+
+.service-cloth {
+    gap: 17px;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    border: none; 
+    background: transparent; 
+    cursor: pointer;
+}
+
+.service-name {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.image{ 
+    display: flex;
+    justify-content: center;
+    
+}
+
+.delete-icone {
+    display: flex;
+    justify-content: flex-end;
+    color: #971b1b;
+}
+
+a {
+    text-decoration: none;
+}
+
