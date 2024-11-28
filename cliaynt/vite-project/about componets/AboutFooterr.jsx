@@ -24,7 +24,7 @@ function AboutFooterr() {
                                         <div className="icon">
                                             <span className=""><FaMapMarkerAlt /></span>
                                         </div>
-                                        <div className="text">54B, Tailstoi Town 5238 MT, <br /> La city, IA 522364</div>
+                                        <div className="text">54Bo, Tailstoi Town 5238 MT, <br /> La city, IA 522364</div>
                                     </div>
                                 </div>
                             </div>
